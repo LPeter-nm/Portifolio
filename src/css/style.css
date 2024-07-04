@@ -52,7 +52,7 @@ ul {
 }
 
 .main-content {
-  padding-left: 270px;
+  padding-left: 240px;
 }
 
 .padd-15 {
@@ -140,6 +140,7 @@ ul {
   padding: 30px;
   height: 100%;
   display: flex;
+  border-right: 1px solid var(--bg-black-50);
   justify-content: center;
   align-items: center;
   z-index: 10;
@@ -253,14 +254,18 @@ ul {
   color: var(--skin-color);
 }
 
+.aside .nav li a i {
+  margin-right: 15px;
+}
+
 /* home */
-.section {
+.home {
   min-height: 100vh;
   display: flex;
   color: var(--text-black-900);
 }
 
-.section .home-info {
+.home .home-info {
   flex: 0 0 60%;
   max-width: 60%;
 }
@@ -292,7 +297,7 @@ h3.myprofession {
   color: var(--text-black-700);
 }
 
-.section .home-img {
+.home .home-img {
   flex: 0 0 40%;
   max-width: 40%;
   text-align: center;
@@ -321,7 +326,7 @@ h3.myprofession {
   top: -40px;
 }
 
-.section .home-img img {
+.home .home-img img {
   margin: auto;
   border-radius: 5px;
   height: 400px;
