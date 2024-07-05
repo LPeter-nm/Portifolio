@@ -63,3 +63,9 @@ function asideSectionTogglerBtn() {
     allSection[i].classList.toggle("open")
   }
 }
+
+const imagePortfolio = document.querySelector(".img-Portfolio")
+
+imagePortfolio.addEventListener('click', () => {
+  window.location = "pagePortfolio.html";
+})

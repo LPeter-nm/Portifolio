@@ -1,0 +1,8 @@
+-> Página após clique na imagem do portfolio 
+  -> JS do clique
+  -> página HTML
+  -> Estilos com CSS
+-> Dowload CV
+  -> criar o currículo
+  -> Colocar em index.html o arquivo para baixar
+    -> Colocar o comando correto!
