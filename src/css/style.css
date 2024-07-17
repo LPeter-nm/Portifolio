@@ -46,7 +46,7 @@ ul {
   padding: 0 30px;
   opacity: 1;
   position: fixed;
-  left: 240px;
+  left: 270px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -608,7 +608,7 @@ h3.myprofession {
   display: block;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1300px) {
   .section .container {
     padding-top: 70px;
   }
