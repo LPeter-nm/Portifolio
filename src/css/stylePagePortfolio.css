@@ -19,6 +19,7 @@ body.dark {
 body {
   background: var(--bg-black-900);
   height: 100%;
+  padding-left: 15px;
   line-height: 1.5;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
@@ -85,8 +86,7 @@ body {
   margin-top: 8px;
 }
 
-.text-port,
-.text-port-two {
+.text-port {
   position: relative;
   margin: 10px;
   top: 40px;
@@ -100,12 +100,16 @@ body {
 .img {
   width: 600px;
   height: 300px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .img-center {
   position: relative;
   width: 800px;
   left: 50%;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 img,
@@ -126,6 +130,10 @@ img,
 .text {
   position: relative;
   top: 20%;
+}
+
+.div-links {
+  color: var(--text-black-900);
 }
 
 @media (max-width: 1270px) {
