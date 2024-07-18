@@ -67,5 +67,5 @@ function asideSectionTogglerBtn() {
 const imagePortfolio = document.querySelector(".img-Portfolio")
 
 imagePortfolio.addEventListener('click', () => {
-  window.location = "pagePortfolio.html";
+  window.location = "taskApp.html";
 })
