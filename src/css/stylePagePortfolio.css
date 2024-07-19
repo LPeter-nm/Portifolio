@@ -91,7 +91,7 @@ img {
 }
 
 img:hover {
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 
 .texts-images .text-image-item {
@@ -108,18 +108,13 @@ img:hover {
 .texts-images .text-image-item .text-one {
   position: absolute;
   width: 100%;
-  left: 110%;
+  left: 111%;
   top: 15%;
-  display: flex;
-  align-items: center;
-
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .texts-images .text-image-item .img-two {
   position: relative;
-  left: 40rem;
+  left: 125%;
 }
 
 .texts-images .text-image-item .text-two {
@@ -127,11 +122,6 @@ img:hover {
   position: absolute;
   top: 15%;
   left: 14%;
-  display: flex;
-  align-items: center;
-
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .texts-images .text-image-item .text-one,
@@ -139,6 +129,11 @@ img:hover {
   background: var(--text-black-700);
   border-radius: 10px;
   height: 65%;
+
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .texts-images .text-image-item img {
@@ -162,9 +157,20 @@ img:hover {
 }
 
 .div-links {
+  position: absolute;
+  background-color: #151515;
+  width: 96%;
   color: var(--text-black-900);
 }
 
+.div-links .div-texts {
+  position: absolute;
+}
+
+.div-links .div-frontBack {
+  position: absolute;
+  left: 70%;
+}
 @media (max-width: 1300px) {
   .texts-images .text-image-item .img-two {
     left: 0;
@@ -185,5 +191,5 @@ img:hover {
   }
 }
 
-@media (max-width: 1361px) {
+@media (max-width: 1341px) {
 }
